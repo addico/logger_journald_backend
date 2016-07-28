@@ -28,7 +28,7 @@ defmodule LoggerJournaldBackend.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-        {:ejournald, git: "git://github.com/systemd/ejournald.git"},
+        {:ejournald, git: "git://github.com/addico/ejournald.git"},
     ]
   end
 end
